@@ -26,7 +26,7 @@ class OutletsSeederTable extends Seeder
         Outlet::create([
             'code' => Str::random(),
             'name' => 'Zaka',
-            'status' => 'Berlangsung',
+            'status' => 'berlangsung',
             'address' => 'Amerika',
             'phone' => '089084515633',
         ]);
