@@ -8,7 +8,7 @@
 </head>
 <body>
       
-        <h3 class="card-header p-3"><i class="fa-solid fa-user"></i> Tugas Amelia Nurbaeti</h3>
+        <h3 class="card-header p-3"><i class="fa-solid fa-user"></i> Tugas PSAS RAZAN AFIF MAHESWARA</h3>
                     <div class="card-body">
                         <form action="{{ route('outlets.update', $outlets->id) }}" method="POST" enctype="multipart/form-data">
                         
@@ -81,8 +81,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
-<footer style="position: fixed; bottom: 0; width: 100%; background-color: rgb(165, 245, 237); text-align:center;">
-    Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }}) by Amelia Nurbaeti Web Programming 11
-</footer>
+
 </body>
 </html>

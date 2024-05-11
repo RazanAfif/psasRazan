@@ -7,7 +7,7 @@
 </head>
 <body>
       
-        <h3 class="card-header p-3"><i class="fa-solid fa-user"></i> Tugas Amelia Nurbaeti</h3>
+        <h3 class="card-header p-3"><i class="fa-solid fa-user"></i> Tugas PSAS RAZAN AFIF MAHESWARA</h3>
         <div class="card-body">
             <a href="{{ route('outlets.create') }}" class="btn"><i class="fa-solid fa-plus">Tambah</i></a>
             <table class="table table-bordered mt-3">
@@ -48,8 +48,6 @@
             {{ $outlets->links() }}
         </div>
 
-        <footer style="position: fixed; bottom: 0; width: 100%; background-color: rgb(165, 245, 237); text-align:center;">
-            Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }}) by Amelia Nurbaeti Web Programming 11
-        </footer>
+        
 </body>
 </html>
